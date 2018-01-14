@@ -54,8 +54,8 @@ Item {
         Rectangle {
             id: window
 
-            property string fgcolor: "black"
-            property string bgcolor: "#000000"
+            property string fgcolor: "white"
+            property string bgcolor: "#ffffff"
             property int fontSize: 14*pixelRatio
 
             property int fadeOutTime: 80
@@ -264,7 +264,7 @@ Item {
                 id: textNotify
 
                 anchors.centerIn: parent
-                color: "#ffffff"
+                color: "#000000"
                 opacity: 0
                 font.pointSize: 40*window.pixelRatio
 

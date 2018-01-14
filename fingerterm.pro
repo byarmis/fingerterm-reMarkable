@@ -92,3 +92,4 @@ contains(MEEGO_EDITION,nemo) {
     desktopfile.files = $${TARGET}.desktop
     INSTALLS += desktopfile
 }
+

@@ -57,8 +57,8 @@ class Terminal : public QObject
     Q_PROPERTY(int columns READ columns NOTIFY termSizeChanged)
 
 public:
-    static const int defaultFgColor = 7;
-    static const int defaultBgColor = 0;
+    static const int defaultFgColor = 0;
+    static const int defaultBgColor = 1;
 
     explicit Terminal(QObject *parent = 0);
     virtual ~Terminal() {}
